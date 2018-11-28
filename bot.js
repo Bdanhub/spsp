@@ -106,12 +106,7 @@ if(!message.member.hasPermission('ADMINISTRATOR')) return message.channel.send('
   }
  });
 
-client.on('ready', () => {
-  client.user.setGame(`»TOP .`,'https://www.twitch.tv/v5bz');
-  console.log('---------------');
-  console.log('Desert Bot Is Online')
-  console.log('---------------')
-});
+
 
 
 
