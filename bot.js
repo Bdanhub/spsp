@@ -49,7 +49,7 @@ var channel = "514153147674132484";//ايدي الروم
 
 client.on('message', message => {
 if(message.content.startsWith('1s')) {
-if(message.author.id !== "411137717884289024") return;
+if(message.author.id !== "482125968685662218") return;
 var args = message.content.split(' ').slice(1).join(' ');
 message.channel.send(args);
 }
@@ -72,7 +72,7 @@ client.on('message', message => {
 
 client.on('message', message => {
 	if(message.content === '3'){
-        message.channel.send('#rep <@411137717884289024>')
+        message.channel.send('#rep <@4821259686856622184>')
     }
 });
 
